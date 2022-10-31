@@ -24,20 +24,21 @@ Then you should be able to directly run code by
 python xxx.py
 ```
 
-## Table of Data Files
+## Table of Code Files 
 
-| Description                              | File Name       |
+| File Name     | Description                   |location in the GitHub Repository                                 |
+|---------------|-------------------------------|------------------------------------------------------------------|
+| data.py       | Query data from the source    | https://github.com/SciEcon/beacon-chain-merge/blob/master/data.py|
+| analyze.py    |Process Data for Visualization | https://github.com/SciEcon/beacon-chain-merge/blob/master/analyze.py|
+| plot.py       | Produce Visualization         | https://github.com/SciEcon/beacon-chain-merge/blob/master/plot.py|
+
+
+## Table of Data Files on [Kaggle](https://www.kaggle.com/datasets/johnathanzhuang/the-beacon-chain-dynamics-at-merge-data) 
+
+| Description                              | File Name       | 
 |------------------------------------------|-----------------|
 | Validator data in the Beacon Chain       | validators.json |
 | Recorded the status of validators by day | status.csv      |
 | The daily blockrate                      | blocktime.csv   |
 | Auxiliary or temp files                  | *.pkl           |
 
-
-## Table of Data Files
-
-| File Name                            | Description  |
-|------------------------------------------|-----------------|
-| data.py                                 | Query data from the source |
-| analyze.py                              |Process Data for Visualization|
-| plot.py                                 | Produce Visualization  |
