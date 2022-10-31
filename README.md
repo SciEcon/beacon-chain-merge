@@ -34,3 +34,10 @@ python xxx.py
 | Auxiliary or temp files                  | *.pkl           |
 
 
+## Table of Data Files
+
+| File Name                            | Description  |
+|------------------------------------------|-----------------|
+| data.py                                 | Query data from the source |
+| analyze.py                              |Process Data for Visualization|
+| plot.py                                 | Produce Visualization  |
